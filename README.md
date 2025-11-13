@@ -1,7 +1,7 @@
-Pneumonia Detector (DenseNet121, PyTorch)
+#Pneumonia Detector (DenseNet121, PyTorch)  
 A end-to-end project to train and deploy a pneumonia detector from chest X-ray images using PyTorch and DenseNet121. Includes class-imbalance handling, evaluation (AUC/accuracy), optional Grad-CAM explainability, and a simple Gradio app for web-style upload-and-predict. Train locally with data on an external HDD; keep code/checkpoints on SSD for speed. Deploy later to Hugging Face Spaces or Render.
 
-Features
+#Features
 Transfer learning with DenseNet121 (ImageNet-pretrained)
 Handles class imbalance (weighted loss)
 Patient-safe splits for Kaggle dataset structure
